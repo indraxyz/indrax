@@ -1,10 +1,44 @@
 // import Image from "next/image";
 import { Button, ButtonGroup, Chip } from "@mui/material";
+import {
+  Timeline,
+  TimelineItem,
+  TimelineSeparator,
+  TimelineConnector,
+  TimelineContent,
+  TimelineDot,
+} from "@mui/lab";
 
 export default function Home() {
   return (
     <div>
-      <Button variant="contained">Hello World 🚀</Button>
+      <Button variant="contained" className="">
+        Hello World 🚀
+      </Button>
+      <div className="">
+        <Timeline>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Eat</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Code</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+            </TimelineSeparator>
+            <TimelineContent>Sleep</TimelineContent>
+          </TimelineItem>
+        </Timeline>
+      </div>
     </div>
   );
 }

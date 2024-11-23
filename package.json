@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "@emotion/cache": "latest",
-    "@emotion/react": "^11.13.5",
+    "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@mui/icons-material": "^6.1.8",
+    "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "@mui/lab": "latest",
     "@mui/material-nextjs": "latest",
     "next": "latest",
     "react": "latest",
