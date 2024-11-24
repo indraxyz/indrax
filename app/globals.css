@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* .judul {
-    @apply underline mt-10 mb-10;
-  } */
   /* button {
     @apply text-gray-950;
   } */
@@ -14,6 +11,9 @@
 @layer components {
   .judul {
     @apply underline mt-10 mb-10;
+  }
+  .foto-profile {
+    @apply w-40 h-auto;
   }
 }
 

@@ -1,8 +1,11 @@
-// import Image from "next/image";
+import Image from "next/image";
 import { Button, ButtonGroup, Chip } from "@mui/material";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import Avatar from "@mui/material/Avatar";
+import ImageIcon from "@mui/icons-material/Image";
 import {
   Timeline,
   TimelineItem,
@@ -11,19 +14,31 @@ import {
   TimelineContent,
   TimelineDot,
 } from "@mui/lab";
+import { timelineItemClasses } from "@mui/lab/TimelineItem";
+
+import foto from "../public/kodehack-logo.png";
 
 export default function Home() {
   return (
     <div className="">
-      <h1 className="judul">Hello world!</h1>
+      {/* <h1 className="judul">Hello world!</h1>
       <Button variant="contained" className="">
         Hello World 🚀
       </Button>
       <Button variant="outlined" sx={{ textDecoration: "none" }}>
         Hello 🚀
-      </Button>
+      </Button> */}
 
-      <Timeline>
+      <Image src={foto} alt="Next.js logo" className="foto-profile" />
+
+      <Timeline
+        sx={{
+          [`& .${timelineItemClasses.root}:before`]: {
+            flex: 0,
+            padding: 0,
+          },
+        }}
+      >
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
@@ -51,6 +66,11 @@ export default function Home() {
         sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
       >
         <ListItem disablePadding>
+          <ListItemAvatar>
+            <Avatar>
+              <ImageIcon />
+            </Avatar>
+          </ListItemAvatar>
           <ListItemText primary="Photos" secondary="Jan 9, 2014" />
         </ListItem>
         <ListItem disablePadding>
@@ -60,6 +80,8 @@ export default function Home() {
           <ListItemText primary="Vacation" secondary="July 20, 2014" />
         </ListItem>
       </List>
+
+      {/* RESPONSIVE with GRID > spacing, clumn */}
     </div>
   );
 }
