@@ -14,4 +14,8 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
+  important: "#__next",
 };

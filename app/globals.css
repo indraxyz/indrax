@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* .judul {
+    @apply underline mt-10 mb-10;
+  } */
+  /* button {
+    @apply text-gray-950;
+  } */
+}
+
+@layer components {
+  .judul {
+    @apply underline mt-10 mb-10;
+  }
+}
+
+/* our new class  */
+@layer utilities {
+}

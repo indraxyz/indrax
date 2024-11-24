@@ -1,5 +1,8 @@
 // import Image from "next/image";
 import { Button, ButtonGroup, Chip } from "@mui/material";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
 import {
   Timeline,
   TimelineItem,
@@ -11,34 +14,52 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
+      <h1 className="judul">Hello world!</h1>
       <Button variant="contained" className="">
         Hello World 🚀
       </Button>
-      <div className="">
-        <Timeline>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>Eat</TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>Code</TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot />
-            </TimelineSeparator>
-            <TimelineContent>Sleep</TimelineContent>
-          </TimelineItem>
-        </Timeline>
-      </div>
+      <Button variant="outlined" sx={{ textDecoration: "none" }}>
+        Hello 🚀
+      </Button>
+
+      <Timeline>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>Eat</TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>Code</TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot />
+          </TimelineSeparator>
+          <TimelineContent>Sleep</TimelineContent>
+        </TimelineItem>
+      </Timeline>
+
+      <List
+        disablePadding
+        sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+      >
+        <ListItem disablePadding>
+          <ListItemText primary="Photos" secondary="Jan 9, 2014" />
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemText primary="Work" secondary="Jan 7, 2014" />
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemText primary="Vacation" secondary="July 20, 2014" />
+        </ListItem>
+      </List>
     </div>
   );
 }
