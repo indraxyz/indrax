@@ -13,7 +13,7 @@
     @apply underline mt-10 mb-10;
   }
   .foto-profile {
-    @apply w-20 md:w-40 h-auto;
+    @apply w-40 md:w-full h-auto rounded-xl self-center;
   }
 }
 
