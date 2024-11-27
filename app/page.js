@@ -24,6 +24,10 @@ import {
   Computer as ComputerIcon,
   EmojiObjects as EmojiObjectsIcon,
   Layers as LayersIcon,
+  School as SchoolIcon,
+  NewReleases as NewReleasesIcon,
+  Group as GroupIcon,
+  EmojiEvents as EmojiEventsIcon,
 } from "@mui/icons-material";
 
 export default function Home() {
@@ -740,8 +744,220 @@ export default function Home() {
       </Grid>
 
       {/* formal edu (timeline) + non formal edu (timeline) */}
+      <Grid container spacing={4} marginTop={4}>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <SchoolIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Formal Education"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="2009-2012 Senior High School"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="08 2013- 02 2018 Bachelor Degree (S1), Informatics Engineering"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <NewReleasesIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Non Formal Education"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Analysts and developers of software and applications, implementation of information technology audit procedures"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Website application security audit"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+      </Grid>
 
       {/* achievements (timeline) + organizations (timeline) */}
+      <Grid container spacing={4} marginTop={4}>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <EmojiEventsIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Achievements"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="8th best graduate SMPN 3 Waru"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="1st Champion DANS 2010"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <GroupIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Organizations"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="DANS SIdoarjo"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Merpati Putih"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="..."
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+      </Grid>
     </Container>
   );
 }
