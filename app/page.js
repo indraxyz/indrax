@@ -371,7 +371,7 @@ export default function Home() {
         </ListItem>
         <ListItem disableGutters disablePadding>
           <ListItemText
-            primary="Github"
+            primary="Github https://github.com/indraxyz"
             primaryTypographyProps={{
               fontSize: 20,
               fontWeight: "medium",
@@ -380,7 +380,63 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="https://github.com/indraxyz"
+            secondary="My portfolio place and explore new things of software development"
+          />
+        </ListItem>
+        <ListItem disableGutters disablePadding>
+          <ListItemText
+            primary="Crimenesia, manage crime report between police and society, 2017, Skripsi S1 UNTAG Surabaya"
+            primaryTypographyProps={{
+              fontSize: 20,
+              fontWeight: "medium",
+              letterSpacing: 0,
+            }}
+            secondaryTypographyProps={{
+              fontSize: 20,
+            }}
+            secondary="main features is  crime reporting and crime mapping, Web and android platform with Laravel, mySQL, jQuery, semantic, notyjs, reactjs, react native"
+          />
+        </ListItem>
+        <ListItem disableGutters disablePadding>
+          <ListItemText
+            primary="Parkir, manage parking area, 2021, freelance project."
+            primaryTypographyProps={{
+              fontSize: 20,
+              fontWeight: "medium",
+              letterSpacing: 0,
+            }}
+            secondaryTypographyProps={{
+              fontSize: 20,
+            }}
+            secondary="main features is auto select location, park entrance and out, tariff and payment, report. Web base with laravel, tailwind, mysql."
+          />
+        </ListItem>
+        <ListItem disableGutters disablePadding>
+          <ListItemText
+            primary="Belov, correction data system,  2022, freelance project."
+            primaryTypographyProps={{
+              fontSize: 20,
+              fontWeight: "medium",
+              letterSpacing: 0,
+            }}
+            secondaryTypographyProps={{
+              fontSize: 20,
+            }}
+            secondary="main features is manage ticket (detail, attachments, verification, history, delete). Web base with Laravel, mySQL, reactjs, bulmacss, babel."
+          />
+        </ListItem>
+        <ListItem disableGutters disablePadding>
+          <ListItemText
+            primary="Spektra, project monitoring, 2023, freelance project."
+            primaryTypographyProps={{
+              fontSize: 20,
+              fontWeight: "medium",
+              letterSpacing: 0,
+            }}
+            secondaryTypographyProps={{
+              fontSize: 20,
+            }}
+            secondary="main features is monitoring progress, register and approvals projects. Web base with nextjs, tailwind, materialui, emotionjs"
           />
         </ListItem>
       </List>
