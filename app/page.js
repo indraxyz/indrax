@@ -22,6 +22,8 @@ import {
   ContactPage as ContactIcon,
   MoreTime as MoreTimeIcon,
   Computer as ComputerIcon,
+  EmojiObjects as EmojiObjectsIcon,
+  Layers as LayersIcon,
 } from "@mui/icons-material";
 
 export default function Home() {
@@ -114,13 +116,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding sx={{ marginTop: 2 }}>
               <ListItemText
-                primary="Name"
+                primary="Indra Cahya Edytya S.Kom"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Indra Cahya Edytya S.Kom"
+                secondary="Name"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -128,7 +130,7 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Place, date of birth"
+                primary="Surabaya, 22 March 1994"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
@@ -137,18 +139,18 @@ export default function Home() {
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
-                secondary="Surabaya, 22 March 1994"
+                secondary="Place, date of birth"
               />
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Last Education"
+                primary="(S1) Bachelor of Informatics Engineering at UNTAG Surabaya"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="(S1) Bachelor of Informatics Engineering at UNTAG Surabaya"
+                secondary="Last Education"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -156,13 +158,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Gender"
+                primary="Male"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Male"
+                secondary="Gender"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -170,13 +172,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Address"
+                primary="Kedungturi permai II V-8, Kedungturi, Taman, Sidoarjo, 61257"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Kedungturi permai II V-8, Sidoarjo"
+                secondary="Address"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -184,13 +186,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Age"
+                primary="30"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="30"
+                secondary="Age"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -198,13 +200,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Height"
+                primary="172 cm"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="172cm"
+                secondary="Height"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -212,13 +214,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Phone"
+                primary="0813 3563 0404"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="081335630404"
+                secondary="Phone"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -226,13 +228,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Email"
+                primary="indracahyae@gmail.com"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="indracahyae@gmail.copm"
+                secondary="Email"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -440,8 +442,305 @@ export default function Home() {
           />
         </ListItem>
       </List>
-      {/* tech skills (list item) + tech stack (list item + icon) */}
+
+      {/* tech skills (list item) + tech stack (list item) */}
+      <Grid container spacing={4} sx={{ marginTop: 4 }}>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <EmojiObjectsIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Tech Skills"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Cross team collaboration and communication."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Adapt to new and different technologies."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Analysis of business problems that solved with smart solutions."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Ui Ux with better journey."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Algorithm, OOP, functional, clean and safe code."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Data structure, database design."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Black box, white box, Unit testing."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Solve bottlenecks, fixing errors and bugs."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="System architecture and security, design pattern."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Project management maintaining monitoring improve and documented."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <List>
+            <ListItem disableGutters disablePadding sx={{ marginBottom: 2 }}>
+              <ListItemAvatar>
+                <Avatar
+                  variant="rounded"
+                  sx={{
+                    bgcolor: "black",
+                  }}
+                >
+                  <LayersIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary="Tech Stacks"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Managements"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Agile, scrum, sprint"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Design"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Figma, adobe XD, CorelDraw, illustrator, Photoshop, Lightroom"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Languages"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, JSON, Python"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Frontend"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Material Ui, tailwind, ant design, emotionJs, ReactJs, Redux, NextJs"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Backend"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary=" NodeJs, expressJs, Laravel, NestJs"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Mobile"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="React Native"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Database"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary=" mySQL, postgreSQL, mongodb, ORM (typeorm, sequelize, prisma)"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Versioning"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Github"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Testing"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Jest, jasmine, mocha"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Microservices"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Graphql, Rest API, Redis, Json"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Operating System"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Windows, Linux, macOS"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+          </List>
+        </Grid>
+      </Grid>
+
       {/* formal edu (timeline) + non formal edu (timeline) */}
+
       {/* achievements (timeline) + organizations (timeline) */}
     </Container>
   );
