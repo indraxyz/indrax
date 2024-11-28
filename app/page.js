@@ -288,11 +288,11 @@ export default function Home() {
             <Typography variant="h6">08 2012 - 02 2013</Typography>
             <Typography variant="h5">
               PPLMK Mitra Computer (Pusat Pendidikan dan Latihan Management
-              Komputer)
+              Komputer), Sidoarjo
             </Typography>
             <Typography>
-              technician, computer trainer (office, design, technician,
-              networking).
+              technician, professional computer trainer (microsoft office,
+              graphic design, technician, networking).
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -303,9 +303,12 @@ export default function Home() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6">03 2016 - 05 2016</Typography>
-            <Typography variant="h5">CV. Mitra Mia Group</Typography>
+            <Typography variant="h5">CV. Mitra Mia Group, Surabaya</Typography>
             <Typography>
-              Project base freelance web developer as Team Lead.
+              Project base freelance web developer as Team Lead using Software
+              planning, Laravel, jquery, bootstrap, mySql, json, github, rest
+              API, vps server, Ui Software (adobe XD, CorelDraw, illustrator,
+              Photoshop, Lightroom).
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -316,8 +319,15 @@ export default function Home() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6">06 2016 - 04 2018</Typography>
-            <Typography variant="h5">CV. Indscript Computer</Typography>
-            <Typography>Fullstack Software Engineer (web, android)</Typography>
+            <Typography variant="h5">
+              CV. Indscript Computer, Sidoarjo
+            </Typography>
+            <Typography>
+              Fullstack Software Engineer (web, android) using Design System,
+              Laravel, ExpressJs, ReactJs, Materil Ui, React Native, mySQL, orm,
+              github, rest API, Ui Software (figma, adobe XD, CorelDraw,
+              illustrator, Photoshop, Lightroom).
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -328,10 +338,15 @@ export default function Home() {
           <TimelineContent>
             <Typography variant="h6">05 2018 - 05 2019</Typography>
             <Typography variant="h5">
-              Yayasan iik Bhakti Wiyata - PT Sigma Intan Mahakarya
+              Yayasan iik Bhakti Wiyata partner with PT Sigma Intan Mahakarya,
+              Surabaya
             </Typography>
             <Typography>
-              Fullstack Software Engineer (web, hybrid mobile)
+              Fullstack Software Engineer (web, hybrid mobile) using Design
+              System, Ui Software (figma, adobe XD, CorelDraw, illustrator,
+              Photoshop, Lightroom), Typescript, Material Ui, tailwind, ant
+              design, reactJs, Redux, NextJs, expressJs, Laravel, React Native,
+              MySQL, postgreSql, github, graphql, rest API.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -341,9 +356,15 @@ export default function Home() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6">06 2019 - Now</Typography>
-            <Typography variant="h5">PT Kode Kreatif Digital</Typography>
+            <Typography variant="h5">
+              PT Kode Kreatif Digital, Sidoarjo
+            </Typography>
             <Typography>
-              Fullstack Software Engineer (web, hybrid mobile)
+              Fullstack Software Engineer (web, hybrid mobile) using Design
+              System, Ui Software (figma, adobe XD, CorelDraw, illustrator,
+              Photoshop, Lightroom), Typescript, Material Ui, tailwind, ant
+              design, reactJs, emotionjs, Redux, NextJs, expressJs, Laravel,
+              React Native, MySQL, postgreSql, orm, github, graphql, rest API.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -400,7 +421,7 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is  crime reporting and crime mapping, Web and android platform with Laravel, mySQL, jQuery, semantic, notyjs, reactjs, react native"
+            secondary="main features is  crime reporting and crime mapping, Web and android platform using Laravel, mySQL, jQuery, semantic, notyjs, reactjs, react native"
           />
         </ListItem>
         <ListItem disableGutters disablePadding>
@@ -414,7 +435,7 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is auto select location, park entrance and out, tariff and payment, report. Web base with laravel, tailwind, mysql."
+            secondary="main features is auto select location, park entrance and out, tariff and payment, report. Web base using laravel, tailwind, mysql."
           />
         </ListItem>
         <ListItem disableGutters disablePadding>
@@ -428,7 +449,7 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is manage ticket (detail, attachments, verification, history, delete). Web base with Laravel, mySQL, reactjs, bulmacss, babel."
+            secondary="main features is manage ticket (detail, attachments, verification, history, delete). Web base using Laravel, mySQL, reactjs, bulmacss, babel."
           />
         </ListItem>
         <ListItem disableGutters disablePadding>
@@ -442,7 +463,7 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is monitoring progress, register and approvals projects. Web base with nextjs, tailwind, materialui, emotionjs"
+            secondary="main features is monitoring progress, register and approvals projects. Web base using nextjs, tailwind, materialui, emotionjs"
           />
         </ListItem>
       </List>
@@ -621,7 +642,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, JSON, Python"
+                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, Python"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -769,13 +790,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="2009-2012 Senior High School"
+                primary="Natural Sciences Major of SMAN 1 Gedangan, Sidoarjo"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="2009-2012 Senior High School"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -783,13 +804,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="08 2013- 02 2018 Bachelor Degree (S1), Informatics Engineering"
+                primary="Bachelor Degree (S1) of Informatics Engineering"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="08 2013- 02 2018 at (UNTAG) Universitas 17 Agustus 1945 Surabaya "
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -827,7 +848,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="03 2018 - 03 2021 at BNSP Certification (Certificate of Competence)"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -841,7 +862,21 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="04 2019 at ISTTS Institut Sains Terapan & Teknologi Surabaya (Seminars & Workshops)"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Building iOT Application with Microcontroller, sensors, web server, mqtt cloud."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="10 2019 at INIXINDO (training)"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -877,13 +912,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="8th best graduate SMPN 3 Waru"
+                primary="8th Best Graduate at SMPN 3 Waru"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="based on national exams & school exams (Junior High School) "
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -891,13 +926,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="1st Champion DANS 2010"
+                primary="1st Champion of DANS 2010"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary=" Duta Anti Narkoba Sidoarjo (DANS) Badan Narkotika Nasional Kabupaten (BNNK) Sidoarjo."
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -929,13 +964,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="DANS SIdoarjo"
+                primary="Vice Chairman of DANS Sidoarjo"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="Vice Chairman of Duta Anti Narkoba Sidoarjo (DANS) BNNK Sidoarjo."
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -943,13 +978,13 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="Merpati Putih"
+                primary="Member of Pencak Silat Merpati Putih"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="..."
+                secondary="at Universitas 17 Agustus 1945 Surabaya"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -957,6 +992,15 @@ export default function Home() {
             </ListItem>
           </List>
         </Grid>
+      </Grid>
+      <Grid
+        size={{ xs: 12 }}
+        display={"flex"}
+        marginTop={6}
+        marginBottom={4}
+        sx={{ justifyContent: "center" }}
+      >
+        <Typography color="textSecondary"> made with ❤️</Typography>
       </Grid>
     </Container>
   );
