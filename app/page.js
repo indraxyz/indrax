@@ -157,7 +157,7 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
-                primary="(S1) Bachelor of Informatics Engineering at UNTAG Surabaya"
+                primary="(S1) Bachelor of Informatics Engineering at (UNTAG) Universitas 17 Agustus 1945 Surabaya"
                 primaryTypographyProps={{
                   fontSize: 20,
                   fontWeight: "medium",
@@ -316,8 +316,7 @@ export default function Home() {
             <Typography>
               Project base freelance web developer as Team Lead using Software
               planning, Laravel, jquery, bootstrap, mySql, json, github, rest
-              API, vps server, Ui Software (adobe XD, CorelDraw, illustrator,
-              Photoshop, Lightroom).
+              API, vps server, Ui Software (XD, CorelDraw, Ai, Ps, Lr).
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -334,8 +333,7 @@ export default function Home() {
             <Typography>
               Fullstack Software Engineer (web, android) using Design System,
               Laravel, ExpressJs, ReactJs, Materil Ui, React Native, mySQL, orm,
-              github, rest API, Ui Software (figma, adobe XD, CorelDraw,
-              illustrator, Photoshop, Lightroom).
+              github, rest API, Ui Software (figma, XD, CorelDraw, Ai, Ps, Lr).
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -352,10 +350,9 @@ export default function Home() {
             </Typography>
             <Typography>
               Fullstack Software Engineer (web, hybrid mobile) using Design
-              System, Ui Software (figma, adobe XD, CorelDraw, illustrator,
-              Photoshop, Lightroom), Typescript, Material Ui, tailwind, ant
-              design, reactJs, Redux, NextJs, expressJs, Laravel, React Native,
-              MySQL, postgreSql, github, graphql, rest API.
+              System, Ui Software (figma, Ai, Ps, Lr), Typescript, Material Ui,
+              tailwind, ant design, reactJs, Redux, NextJs, expressJs, Laravel,
+              React Native, MySQL, postgreSql, github, graphql, rest API.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -370,10 +367,10 @@ export default function Home() {
             </Typography>
             <Typography>
               Fullstack Software Engineer (web, hybrid mobile) using Design
-              System, Ui Software (figma, adobe XD, CorelDraw, illustrator,
-              Photoshop, Lightroom), Typescript, Material Ui, tailwind, ant
-              design, reactJs, emotionjs, Redux, NextJs, expressJs, Laravel,
-              React Native, MySQL, postgreSql, orm, github, graphql, rest API.
+              System, Ui Software (figma, Ai, Ps, Lr), Typescript, Material Ui,
+              tailwind, ant design, reactJs, emotionjs, Redux, NextJs,
+              expressJs, Laravel, React Native, MySQL, postgreSql, orm, github,
+              graphql, rest API.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -637,7 +634,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Figma, adobe XD, CorelDraw, illustrator, Photoshop, Lightroom"
+                secondary="Figma, CorelDraw, Ai, Ps, Lr"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -651,7 +648,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, Python"
+                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, Python, Ruby"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
