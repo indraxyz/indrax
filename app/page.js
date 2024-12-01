@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Grid2 as Grid,
   Typography,
@@ -29,6 +31,12 @@ import {
   Group as GroupIcon,
   EmojiEvents as EmojiEventsIcon,
 } from "@mui/icons-material";
+import Image from "next/image";
+import FotoProfile from "../public/foto-profile.jpg";
+
+const customLoader = ({ src, width, quality }) => {
+  return `${src}`;
+};
 
 export default function Home() {
   return (
@@ -40,8 +48,9 @@ export default function Home() {
           size={{ xs: 12, md: 3 }}
           sx={{ justifyContent: "center" }}
         >
-          <img
-            src="./foto-profile.jpg"
+          <Image
+            loader={customLoader}
+            src={FotoProfile}
             alt="photo profile"
             className="foto-profile"
           />
@@ -670,7 +679,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary=" NodeJs, expressJs, Laravel, NestJs"
+                secondary=" NodeJs, expressJs, Laravel, NestJs, Rails"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -810,7 +819,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="08 2013- 02 2018 at (UNTAG) Universitas 17 Agustus 1945 Surabaya "
+                secondary="08 2013- 02 2018 at (UNTAG) Universitas 17 Agustus 1945 Surabaya, GPA 3.66 "
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
