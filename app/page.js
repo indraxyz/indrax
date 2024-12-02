@@ -295,10 +295,7 @@ export default function Home() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6">08 2012 - 02 2013</Typography>
-            <Typography variant="h5">
-              PPLMK Mitra Computer (Pusat Pendidikan dan Latihan Management
-              Komputer), Sidoarjo
-            </Typography>
+            <Typography variant="h5">LPK Mitra Computer, Sidoarjo</Typography>
             <Typography>
               technician, professional computer trainer (microsoft office,
               graphic design, technician, networking).
@@ -345,8 +342,8 @@ export default function Home() {
           <TimelineContent>
             <Typography variant="h6">05 2018 - 05 2019</Typography>
             <Typography variant="h5">
-              Yayasan iik Bhakti Wiyata partner with PT Sigma Intan Mahakarya,
-              Surabaya
+              Yayasan iik Bhakti Wiyata (head office Surabaya) partner with PT
+              Sigma Intan Mahakarya, Surabaya
             </Typography>
             <Typography>
               Fullstack Software Engineer (web, hybrid mobile) using Design
@@ -676,7 +673,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary=" NodeJs, expressJs, Laravel, NestJs, Rails"
+                secondary=" NodeJs, expressJs, Laravel, NestJs, Rails, Web Socket"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
