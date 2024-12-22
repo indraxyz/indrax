@@ -49,6 +49,7 @@ export default function Home() {
           sx={{ justifyContent: "center" }}
         >
           <Image
+            unoptimized
             loader={customLoader}
             src={FotoProfile}
             alt="photo profile"
@@ -79,9 +80,11 @@ export default function Home() {
                 variant="rounded"
                 sx={{
                   bgcolor: "black",
+                  fontSize: 25,
                 }}
               >
-                <PersonIcon />
+                {/* <PersonIcon /> */}
+                🙋
               </Avatar>
             </ListItemAvatar>
             <ListItemText
@@ -115,7 +118,7 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <ContactIcon />
+                  🗂️
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -213,6 +216,20 @@ export default function Home() {
             </ListItem>
             <ListItem disableGutters disablePadding>
               <ListItemText
+                primary="Married"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Status"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
                 primary="172 cm"
                 primaryTypographyProps={{
                   fontSize: 20,
@@ -267,7 +284,7 @@ export default function Home() {
                 bgcolor: "black",
               }}
             >
-              <MoreTimeIcon />
+              🏢
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -295,9 +312,11 @@ export default function Home() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6">08 2012 - 02 2013</Typography>
-            <Typography variant="h5">LPK Mitra Computer, Sidoarjo</Typography>
+            <Typography variant="h5">
+              LPK Mitra Computer, Sidoarjo (Lembaga Pelatihan Kerja)
+            </Typography>
             <Typography>
-              technician, professional computer trainer (microsoft office,
+              as technician, professional computer trainer (microsoft office,
               graphic design, technician, networking).
             </Typography>
           </TimelineContent>
@@ -311,9 +330,10 @@ export default function Home() {
             <Typography variant="h6">03 2016 - 05 2016</Typography>
             <Typography variant="h5">CV. Mitra Mia Group, Surabaya</Typography>
             <Typography>
-              Project base freelance web developer as Team Lead using Software
-              planning, Laravel, jquery, bootstrap, mySql, json, github, rest
-              API, vps server, Ui Software (XD, CorelDraw, Ai, Ps, Lr).
+              as Fullstack Web, Team Lead of 7 members (freelance). <br />
+              Build Online shop web base about list of properties for sale. Use
+              Laravel, jquery, bootstrap, mySql, json, github, rest API, vps
+              server.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -328,9 +348,11 @@ export default function Home() {
               CV. Indscript Computer, Sidoarjo
             </Typography>
             <Typography>
-              Fullstack Software Engineer (web, android) using Design System,
-              Laravel, ExpressJs, ReactJs, Materil Ui, React Native, mySQL, orm,
-              github, rest API, Ui Software (figma, XD, CorelDraw, Ai, Ps, Lr).
+              as Fullstack Software Engineer <br />
+              Make a web/android app base on clients request/ requirement
+              (company profile, online store, park, waiting system, pos,
+              custom). Use Laravel, ExpressJs, ReactJs, Materil Ui, React
+              Native, mySQL, orm, github, rest API.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -346,10 +368,11 @@ export default function Home() {
               Sigma Intan Mahakarya, Surabaya
             </Typography>
             <Typography>
-              Fullstack Software Engineer (web, hybrid mobile) using Design
-              System, Ui Software (figma, Ai, Ps, Lr), Typescript, Material Ui,
-              tailwind, ant design, reactJs, Redux, NextJs, expressJs, Laravel,
-              React Native, MySQL, postgreSql, github, graphql, rest API.
+              as Fullstack Software Engineer. <br />
+              Make Ners App, school app, canteen app from scratch, custom (web &
+              app). Use javascript, Typescript, Material Ui, tailwind, reactJs,
+              Redux, NextJs, expressJs, Laravel, React Native, MySQL,
+              postgreSql, github, graphql, rest API, web socket.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -363,11 +386,13 @@ export default function Home() {
               PT Kode Kreatif Digital, Sidoarjo
             </Typography>
             <Typography>
-              Fullstack Software Engineer (web, hybrid mobile) using Design
-              System, Ui Software (figma, Ai, Ps, Lr), Typescript, Material Ui,
-              tailwind, ant design, reactJs, emotionjs, Redux, NextJs,
-              expressJs, Laravel, React Native, MySQL, postgreSql, orm, github,
-              graphql, rest API.
+              as Fullstack Software Engineer <br />
+              make web app, and hybrid mobile app base on request/requirement
+              (profile, online store, education, health, finance, custom ) use
+              Typescript, Material Ui, tailwind, ant design, reactJs, Redux,
+              NextJs, expressJs, Laravel, React Native, MySQL, postgreSql, orm,
+              github, graphql, rest API, web socket, golang, phyton, docker,
+              kubernetes.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -387,7 +412,8 @@ export default function Home() {
                 bgcolor: "black",
               }}
             >
-              <ComputerIcon />
+              {/* <ComputerIcon /> */}
+              💻
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -410,12 +436,12 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="My portfolio place and explore new things of software development"
+            secondary="My portfolio place and explore code on software development"
           />
         </ListItem>
         <ListItem disableGutters disablePadding>
           <ListItemText
-            primary="Crimenesia, manage crime report between police and society, 2017, Skripsi S1 UNTAG Surabaya"
+            primary="Crimenesia, manage crime report between police and society, 2017, my Thesis at UNTAG Surabaya"
             primaryTypographyProps={{
               fontSize: 20,
               fontWeight: "medium",
@@ -429,7 +455,7 @@ export default function Home() {
         </ListItem>
         <ListItem disableGutters disablePadding>
           <ListItemText
-            primary="Parkir, manage parking area, 2021, freelance project."
+            primary="Parkir, manage parking area, 2021."
             primaryTypographyProps={{
               fontSize: 20,
               fontWeight: "medium",
@@ -443,7 +469,7 @@ export default function Home() {
         </ListItem>
         <ListItem disableGutters disablePadding>
           <ListItemText
-            primary="Belov, correction data system,  2022, freelance project."
+            primary="Belov, correction data system,  2022."
             primaryTypographyProps={{
               fontSize: 20,
               fontWeight: "medium",
@@ -452,12 +478,12 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is manage ticket (detail, attachments, verification, history, delete). Web base using Laravel, mySQL, reactjs, bulmacss, babel."
+            secondary="main features is manage ticket (detail, attachments, verification, history, delete). Web base using Laravel, mySQL, reactjs, bulmacss."
           />
         </ListItem>
         <ListItem disableGutters disablePadding>
           <ListItemText
-            primary="Spektra, project monitoring, 2023, freelance project."
+            primary="Spektra, project monitoring, 2023."
             primaryTypographyProps={{
               fontSize: 20,
               fontWeight: "medium",
@@ -466,7 +492,21 @@ export default function Home() {
             secondaryTypographyProps={{
               fontSize: 20,
             }}
-            secondary="main features is monitoring progress, register and approvals projects. Web base using nextjs, tailwind, materialui, emotionjs"
+            secondary="main features are monitoring progress, register and approvals projects. Web base with nextjs, tailwind, materialui, emotionjs, rest api. "
+          />
+        </ListItem>
+        <ListItem disableGutters disablePadding>
+          <ListItemText
+            primary="WisataApp, booking rooms, 2024."
+            primaryTypographyProps={{
+              fontSize: 20,
+              fontWeight: "medium",
+              letterSpacing: 0,
+            }}
+            secondaryTypographyProps={{
+              fontSize: 20,
+            }}
+            secondary="main features are search property, hotels, available rooms. Web base with typescript, nextjs, tailwind, materialui, rest api. "
           />
         </ListItem>
       </List>
@@ -483,7 +523,7 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <EmojiObjectsIcon />
+                  💡
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -597,7 +637,8 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <LayersIcon />
+                  {/* <LayersIcon /> */}
+                  💎
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -645,7 +686,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="HTML, CSS, SASS, Javascript, Typescript, PHP, Python, Ruby"
+                secondary="HTML, CSS, Javascript, Typescript, PHP, Python, Go "
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -659,7 +700,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Material Ui, tailwind, ant design, emotionJs, ReactJs, Redux, NextJs"
+                secondary="Material Ui, tailwind, ant design, ReactJs, Redux, NextJs"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -673,7 +714,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary=" NodeJs, expressJs, Laravel, NestJs, Rails, Web Socket"
+                secondary=" NodeJs, expressJs, NestJs, Laravel, Web Socket"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -743,7 +784,21 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Graphql, Rest API, Redis, Json"
+                secondary="Graphql, Rest API, Redis, JSON"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Containers"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Docker, Kubernetes"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -779,7 +834,8 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <SchoolIcon />
+                  {/* <SchoolIcon /> */}
+                  🎓
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -831,7 +887,8 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <NewReleasesIcon />
+                  {/* <NewReleasesIcon /> */}
+                  🧾
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -901,7 +958,8 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <EmojiEventsIcon />
+                  {/* <EmojiEventsIcon /> */}
+                  🏆
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -953,7 +1011,8 @@ export default function Home() {
                     bgcolor: "black",
                   }}
                 >
-                  <GroupIcon />
+                  {/* <GroupIcon /> */}
+                  🎗️
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
@@ -973,7 +1032,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Vice Chairman of Duta Anti Narkoba Sidoarjo (DANS) BNNK Sidoarjo."
+                secondary="2010 - 2011 at Duta Anti Narkoba Sidoarjo (DANS) BNNK Sidoarjo."
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -987,7 +1046,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="at Universitas 17 Agustus 1945 Surabaya"
+                secondary="2013 - 2015 at Universitas 17 Agustus 1945 Surabaya"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
