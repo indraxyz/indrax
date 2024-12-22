@@ -835,7 +835,7 @@ export default function Home() {
                   }}
                 >
                   {/* <SchoolIcon /> */}
-                  🎓
+                  🏫
                 </Avatar>
               </ListItemAvatar>
               <ListItemText
