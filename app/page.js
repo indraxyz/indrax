@@ -672,7 +672,7 @@ export default function Home() {
                   fontWeight: "medium",
                   letterSpacing: 0,
                 }}
-                secondary="Figma, CorelDraw, Ai, Ps, Lr"
+                secondary="Figma, CorelDraw, Adobe Xd, Ai, Ps, Lr"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -799,6 +799,20 @@ export default function Home() {
                   letterSpacing: 0,
                 }}
                 secondary="Docker, Kubernetes"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Cloud"
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="Vercel, AWS Amplify"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
@@ -937,6 +951,20 @@ export default function Home() {
                   letterSpacing: 0,
                 }}
                 secondary="10 2019 at INIXINDO (training)"
+                secondaryTypographyProps={{
+                  fontSize: 20,
+                }}
+              />
+            </ListItem>
+            <ListItem disableGutters disablePadding>
+              <ListItemText
+                primary="Problem Solving (Basic) Certificate by HackerRank."
+                primaryTypographyProps={{
+                  fontSize: 20,
+                  fontWeight: "medium",
+                  letterSpacing: 0,
+                }}
+                secondary="12 2024 at https://www.hackerrank.com/certificates/a42dc6068da4"
                 secondaryTypographyProps={{
                   fontSize: 20,
                 }}
